@@ -10,4 +10,4 @@ function getResult(total) {
   return "ไม่ผ่าน";
 }
 
-module.exports = { calculateTotal };
+module.exports = { calculateTotal, getResult };
