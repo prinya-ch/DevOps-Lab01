@@ -2,4 +2,12 @@ function calculateTotal(homework, exam) {
   return homework + exam;
 }
 
-module.exports = { calculateTotal };
+function getResult(total) {
+  if (total >= 50) {
+    return "ผ่าน";
+  }
+
+  return "ไม่ผ่าน";
+}
+
+module.exports = { calculateTotal, getResult };
