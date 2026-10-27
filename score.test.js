@@ -1,5 +1,5 @@
 const assert = require("node:assert/strict");
-const { calculateTotal } = require("./score");
+const { calculateTotal, getResult } = require("./score");
 
 assert.equal(calculateTotal(20, 30), 50);
 assert.equal(calculateTotal(0, 40), 40);
